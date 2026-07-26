@@ -1,0 +1,26 @@
+# Generated with JReleaser 1.25.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.9.0.schema.json
+
+PackageIdentifier: alsi-lawr.Viset
+PackageVersion: 0.1.0
+PackageLocale: en-US
+Publisher: alsi-lawr
+PublisherUrl: https://github.com/alsi-lawr
+PublisherSupportUrl: https://github.com/getviset/Viset/issues
+Author: Viset contributors
+PackageName: Viset
+PackageUrl: https://github.com/getviset/Viset
+License: MIT
+LicenseUrl: https://github.com/getviset/Viset/blob/v0.1.0/LICENSE
+Copyright: 2026 Viset contributors
+ShortDescription: Reproducible browser screenshots and animations as code
+Description: |
+  Viset captures browser screenshots and animations from trusted Lua scripts.
+Moniker: viset
+Tags:
+  - browser
+  - screenshots
+  - cli
+ReleaseNotesUrl: https://github.com/getviset/Viset/releases/tag/v0.1.0
+ManifestType: defaultLocale
+ManifestVersion: 1.9.0

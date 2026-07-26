@@ -1,0 +1,25 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: alsi-lawr.Viset
+PackageVersion: 0.1.0
+Installers:
+  - Architecture: x64
+    InstallerUrl: https://github.com/getviset/Viset/releases/download/v0.1.0/viset-v0.1.0-win-x64.zip
+    InstallerSha256: 69a379fdeb71e6aabb0734d765b079dc5cc20b7cfe1ec1ec4ff26baa8ab6072a
+    InstallerType: zip
+    NestedInstallerType: portable
+    ArchiveBinariesDependOnPath: true
+    NestedInstallerFiles:
+      - RelativeFilePath: viset-v0.1.0-win-x64\bin\viset.exe
+        PortableCommandAlias: viset
+  - Architecture: arm64
+    InstallerUrl: https://github.com/getviset/Viset/releases/download/v0.1.0/viset-v0.1.0-win-arm64.zip
+    InstallerSha256: f3374e63899799ed1c7ce2f5406aab8bf119c2d8294cdf7c464d2ee8f82e99d1
+    InstallerType: zip
+    NestedInstallerType: portable
+    ArchiveBinariesDependOnPath: true
+    NestedInstallerFiles:
+      - RelativeFilePath: viset-v0.1.0-win-arm64\bin\viset.exe
+        PortableCommandAlias: viset
+ManifestType: installer
+ManifestVersion: 1.9.0
