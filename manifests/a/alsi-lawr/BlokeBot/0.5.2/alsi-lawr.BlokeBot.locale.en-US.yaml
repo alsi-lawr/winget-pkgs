@@ -1,0 +1,26 @@
+# Generated with JReleaser 1.25.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.9.0.schema.json
+
+PackageIdentifier: alsi-lawr.BlokeBot
+PackageVersion: 0.5.2
+PackageLocale: en-US
+Publisher: alsi-lawr
+PublisherUrl: https://github.com/alsi-lawr
+PublisherSupportUrl: https://github.com/alsi-lawr/BlokeBot/issues
+Author: BlokeBot contributors
+PackageName: BlokeBot
+PackageUrl: https://github.com/alsi-lawr/BlokeBot
+License: MIT
+LicenseUrl: https://github.com/alsi-lawr/BlokeBot/blob/v0.5.2/LICENSE
+Copyright: 2026 BlokeBot contributors
+ShortDescription: Free, open-source Twitch bot and dashboard
+Description: |
+  BlokeBot is a self-hosted Twitch bot and dashboard for channel tools.
+Moniker: blokebot
+Tags:
+  - twitch
+  - bot
+  - cli
+ReleaseNotesUrl: https://github.com/alsi-lawr/BlokeBot/releases/tag/v0.5.2
+ManifestType: defaultLocale
+ManifestVersion: 1.9.0
