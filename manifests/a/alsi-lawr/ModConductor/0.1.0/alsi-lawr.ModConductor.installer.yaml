@@ -1,0 +1,22 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: alsi-lawr.ModConductor
+PackageVersion: 0.1.0
+InstallerType: nullsoft
+Scope: user
+InstallModes:
+  - interactive
+  - silent
+InstallerSwitches:
+  Silent: /S
+  SilentWithProgress: /S
+UpgradeBehavior: install
+ProductCode: ModConductor
+AppsAndFeaturesEntries:
+  - ProductCode: ModConductor
+Installers:
+  - Architecture: x64
+    InstallerUrl: https://github.com/ModConductor/ModConductor/releases/download/v0.1.0/ModConductor-0.1.0-win-x64-setup.exe
+    InstallerSha256: 2874505C1C080CE4F9DA33D778D4E5C6A3823F88C5D1CFFE2718409E5EDECFD9
+ManifestType: installer
+ManifestVersion: 1.9.0
