@@ -1,0 +1,12 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.9.0.schema.json
+
+PackageIdentifier: alsi-lawr.ModConductor
+PackageVersion: 0.2.0
+PackageLocale: en-US
+Publisher: Mod Conductor contributors
+PackageName: Mod Conductor
+License: GPL-3.0-or-later
+ShortDescription: Desktop mod organiser
+PackageUrl: https://github.com/ModConductor/ModConductor
+ManifestType: defaultLocale
+ManifestVersion: 1.9.0
