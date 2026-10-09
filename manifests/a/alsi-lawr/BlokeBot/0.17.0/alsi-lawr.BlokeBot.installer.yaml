@@ -1,0 +1,25 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: alsi-lawr.BlokeBot
+PackageVersion: 0.17.0
+Installers:
+  - Architecture: x64
+    InstallerUrl: https://github.com/alsi-lawr/BlokeBot/releases/download/v0.17.0/blokebot-v0.17.0-win-x64.zip
+    InstallerSha256: cbc46b163f35c24b4e19d5f46fb417e7e68e5fd74da076d0d44bac37037723a6
+    InstallerType: zip
+    NestedInstallerType: portable
+    ArchiveBinariesDependOnPath: true
+    NestedInstallerFiles:
+      - RelativeFilePath: blokebot-v0.17.0-win-x64\bin\blokebot.exe
+        PortableCommandAlias: blokebot
+  - Architecture: arm64
+    InstallerUrl: https://github.com/alsi-lawr/BlokeBot/releases/download/v0.17.0/blokebot-v0.17.0-win-arm64.zip
+    InstallerSha256: 2a91403451da2958a0b19fe4b5392f993c9ebfcf513df13783a399dd399982e9
+    InstallerType: zip
+    NestedInstallerType: portable
+    ArchiveBinariesDependOnPath: true
+    NestedInstallerFiles:
+      - RelativeFilePath: blokebot-v0.17.0-win-arm64\bin\blokebot.exe
+        PortableCommandAlias: blokebot
+ManifestType: installer
+ManifestVersion: 1.9.0
